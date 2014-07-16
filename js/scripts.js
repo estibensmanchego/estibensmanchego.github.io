@@ -38,7 +38,7 @@
     // Progress bar
     $('.progress .progress-bar').progressbar();
     
-    
+    //Sen mail ajax
 
 
 })(jQuery);
