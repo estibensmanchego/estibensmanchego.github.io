@@ -462,6 +462,8 @@ nav .active a {
     width: 100px;
     margin-right: 5px;
     margin-bottom: 5px;
+    max-height: 150px;
+    max-height: 150px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -477,7 +479,6 @@ nav .active a {
 
 .portfolio img:first-child {
     margin-left: 8px;
-    max-height: 150px;
 }
 
 .dismiss {
