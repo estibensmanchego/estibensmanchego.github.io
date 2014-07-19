@@ -477,6 +477,7 @@ nav .active a {
 
 .portfolio img:first-child {
     margin-left: 8px;
+    max-height: 150px;
 }
 
 .dismiss {
