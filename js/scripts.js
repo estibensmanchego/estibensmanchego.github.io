@@ -37,6 +37,20 @@
 
     // Progress bar
     $('.progress .progress-bar').progressbar();
+
+    // Download CV
+    $('.top-download-resume').click(function(event) {
+        $.ajax({
+            url: '/path/to/file',
+            type: 'default GET (Other values: POST)',
+            dataType: 'default: Intelligent Guess (Other values: xml, json, script, or html)',
+            data: {param1: 'value1'},
+            success: function (html) {
+                // body...
+            }
+        });
+        
+    });
     
     //Sen mail ajax
     $.ajax({
